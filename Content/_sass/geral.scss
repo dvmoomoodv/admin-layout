@@ -1,0 +1,46 @@
+
+@import "variables-pessoal";
+@import "bootstrap";
+
+@import "font-awesome";
+
+
+.red{
+	background: red;
+}
+.blue{
+	background: blue;
+}
+.green{
+	background: green;
+}
+
+
+#header{
+	.logo-cliente{}
+	h1{}
+	.page-configs{}
+	.user-area{
+		.user{}
+		.dropdown-menu{
+			li{}
+			a{}
+		}
+	}
+}
+
+
+#main{
+	#menu-principal{}
+	#container{}
+}
+
+#menu-principal{
+	a{}
+	.first-level{
+		> li{}
+	}
+	.second-level{
+		>li{}
+	}
+}
