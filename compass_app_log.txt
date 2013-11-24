@@ -1,0 +1,7 @@
+2013-11-24 12:20:10    remove .sass-cache/ 
+2013-11-24 12:20:10    remove Content/css/geral.css 
+2013-11-24 12:20:14    create Content/css/geral.css 
+2013-11-24 12:21:04 identical Content/css/geral.css 
+2013-11-24 12:21:12    create Content/css/geral.css 
+2013-11-24 12:22:40 overwrite Content/css/geral.css 
+2013-11-24 12:22:43 identical Content/css/geral.css 

@@ -9795,3 +9795,18 @@ td.visible-print {
 .fa-plus-square-o:before {
   content: "\f196";
 }
+
+/* line 6, ../sass/geral.scss */
+.red {
+  background: red;
+}
+
+/* line 9, ../sass/geral.scss */
+.blue {
+  background: blue;
+}
+
+/* line 12, ../sass/geral.scss */
+.green {
+  background: green;
+}
