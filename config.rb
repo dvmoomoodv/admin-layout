@@ -1,8 +1,8 @@
 # Require any additional compass plugins here.
 
 http_path = "/"
-css_dir = "Content/css"
-sass_dir = "Content/sass"
+css_dir = "Content/_css"
+sass_dir = "Content/_sass"
 images_dir = "Content/img"
 javascripts_dir = "Content/js"
 
