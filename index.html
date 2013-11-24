@@ -25,21 +25,57 @@
     <script>
       window.jQuery || document.write("<script src='js/jquery-1.6.2.min.js'>\x3C/script>")
     </script>
-    <script src='js/modernizr-2.0.6.min.js'></script>
+    <!-- <script src='js/modernizr-2.0.6.min.js'></script> -->
     <script>document.write('<script src="http://' + (location.host || 'localhost')
 .split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 
   </head>
   <body>
-    <div id='container'>
-      <div id='main' role='main'>
-      
+    <div id="header">
+      <div class="logo-cliente">
+        <h1>Your Company Name</h1>
+      </div>
+      <div class="user-info">
+        
+      </div> 
+    </div>
+    <div id='main' role='main'>
+      <div id="menu-principal">
+        <ul class="nav nav-pills nav-stacked">
+          <li class="active">
+            <a href="#">Dashboard</a>
+          </li>
+          <li> 
+            <a href="#">Formulários</a>
+            <ul class="collapse slide">
+              <li><a href="#">Formulários Básicos</a></li>
+              <li><a href="#">Formulários Avançados</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Tabelas</a>
+            <ul class="collapse slide">
+              <li><a href="#">Tabelas especiais</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">UI Elements</a>
+            <ul class="collapse slide">
+              <li><a href="#">Icons</a></li>
+              <li><a href="#">Buttons</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div id='container'>
+
         
       </div>
     </div>
 
     <!-- Page Scripts -->
     <script src='//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js'></script>
+    <script src='Content/js/main.js'></script>
 
     <!-- Page JavaScript Templates -->
 
