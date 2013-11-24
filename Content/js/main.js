@@ -12,7 +12,6 @@ geral = {
 			$(this).siblings("ul").collapse("toggle");
 		});
 	}
-
 };
 
 $(function(){

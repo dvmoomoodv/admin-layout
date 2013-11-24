@@ -35,10 +35,23 @@
       <div class="logo-cliente">
         <h1>Your Company Name</h1>
       </div>
-      <div class="user-info">
-        
+
+      <div class="page-configs">
+        <div class="user-area">
+          <a href="#" class="dropdown-toggle user" data-toggle="dropdown"> 
+            <span class="name">Bruno Mendes</span>
+            <img src="http://fakeimg.pl/200x200/CCC/FFF/?text=img+placeholder">
+          </a>
+
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Account Settings</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Logout</a></li>
+          </ul>
+        </div>
       </div> 
-    </div>
+    </div> <!-- /header --> 
+
     <div id='main' role='main'>
       <div id="menu-principal">
         <ul class="nav nav-pills nav-stacked first-level">
@@ -66,12 +79,40 @@
             </ul>
           </li>
         </ul>
-      </div>
+      </div> <!-- /menu-principal -->
+
       <div id='container'>
 
+        <div id="page-title">
+          <div class="heading-action">
+            <div class="btn-group">
+              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                Ações <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#"><i class="fa fa-plus-circle"></i> Novo</a></li>
+              </ul>
+            </div>
+          </div>
+          <h2>Título da Página</h2>
+
+          <ol class="breadcrumb">
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">Link</a>
+            </li>
+            <li class="active">Current</li>
+          </ol>
+        </div>
+
+        <div id="page-content">
+          Conteúdo da página
+        </div>
         
-      </div>
-    </div>
+      </div><!-- /container -->
+    </div> <!-- /main -->
 
     <!-- Page Scripts -->
     <script src='//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js'></script>
