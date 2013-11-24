@@ -12,3 +12,15 @@
 .green{
 	background: green;
 }
+
+#menu-principal{
+	a{}
+	.first-level{
+		> li{
+
+		}
+	}
+	.second-level{
+		>li{}
+	}
+}
