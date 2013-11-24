@@ -12,7 +12,7 @@ Estudos de Admin com bootstrap 3
 http://tympanus.net/Development/CreativeLoadingEffects/
 Como verificar o andamento de um ajax em % de carregamento
 
-Estudar como controlar o carregamento de imagens somente quando necessário (visivel na página)
+Estudar como controlar o carregamento de imagens somente quando necessário (visivel na página)∏
 www.walmart.com
 
 Estudar como fazer svg animado, referencia
